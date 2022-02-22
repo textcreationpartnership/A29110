@@ -1,0 +1,532 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The eye of faith, looking at eterntty [sic] being the sum and substance of a sermon, preached in the Cathedral Church of York, the sixth Sunday after Trinity, July the second, 1665 / by Christopher Bradley ...</title>
+            <author>Bradley, Christopher, d. 1678.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1666</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 40 KB of XML-encoded text transcribed from 16 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A29110</idno>
+            <idno type="STC">Wing B4124</idno>
+            <idno type="STC">ESTC R20241</idno>
+            <idno type="EEBO-CITATION">11769506</idno>
+            <idno type="OCLC">ocm 11769506</idno>
+            <idno type="VID">48823</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A29110)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 48823)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 15:17)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The eye of faith, looking at eterntty [sic] being the sum and substance of a sermon, preached in the Cathedral Church of York, the sixth Sunday after Trinity, July the second, 1665 / by Christopher Bradley ...</title>
+                  <author>Bradley, Christopher, d. 1678.</author>
+               </titleStmt>
+               <extent>[8], 24 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Stephen Bulkley, and are to be sold by Francis Manbarne,</publisher>
+                  <pubPlace>York :</pubPlace>
+                  <date>1666.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Yale University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Eternity --  Sermons.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-04</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2013-04</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="imprimatur">
+            <pb facs="tcp:48823:1"/>
+            <p>Imprimatur.</p>
+            <closer>
+               <signed>Edm. Diggle, <hi>S. T. P.</hi> Reverendiſſimo in Chriſto Patri, ac Domino, Domino <hi>Richardo</hi> Achiepiſcopo <hi>Ebor.</hi> à Sa<g ref="char:EOLhyphen"/>cris Domeſticis.</signed>
+               <dateline>
+                  <hi>Datum</hi> Epiſcopa-Thorpae <date>Octob. <hi>17 1665.</hi>
+                  </date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:48823:1"/>
+            <p>THE Eye of Faith, Looking at Eternity.</p>
+            <p>Being the Sum and Subſtance of a SERMON, Preached in the Cathedral Church of <hi>YORK,</hi> the ſixth Sunday after Trinity, <hi>July</hi> the ſecond, 1665.</p>
+            <p>By <hi>Chriſtopher Bradley,</hi> Maſter of Arts of <hi>Peter-Houſe</hi> in <hi>Cambridge,</hi> and now Rector of <hi>Thornton</hi> in <hi>Pickering-Lyth.</hi>
+            </p>
+            <q>
+               <bibl>
+                  <hi>Auguſtinus de Trin.</hi>
+               </bibl>
+               <p>Fides, licet ad aeternitatem perducat, temporalis tamen eſt: &amp; eum ad aeternitatem ventum fuerit, e<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſſatura.</p>
+               <bibl>
+                  <hi>Seneca Epiſt.</hi>
+               </bibl>
+               <p>In omnibus rebus aeternitatem propone.</p>
+            </q>
+            <q>
+               <bibl>
+                  <hi>1 Pet. 1.9.</hi>
+               </bibl>
+               <p>Receiving the end of your faith, even the ſalvation of your Souls.</p>
+            </q>
+            <p>YORK, Printed by <hi>Stephen Bulkley,</hi> and are to be ſold by <hi>Francis Mawbarne,</hi> 1666.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:48823:2"/>
+            <pb facs="tcp:48823:2"/>
+            <head>To the honourable, Sir <hi>William Strickland</hi> Knight, and Baronet, his firſt Patron, Eternal Happineſſe.</head>
+            <opener>
+               <salute>Much Honoored Sir,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">I</seg>T hath pleaſed God ſince I pre<g ref="char:EOLhyphen"/>ſented my laſt Book unto you, to take out of this Life my immedi<g ref="char:EOLhyphen"/>ate Patron, Sir <hi>William Cholmley,</hi> your Nephew, to whom that Book was principally Dedicated. And through Gods goodneſs, your ſelf being my only ſur<g ref="char:EOLhyphen"/>viving Patron; I am not only obliged in Du<g ref="char:EOLhyphen"/>ty, but in a manner neceſſitated to reflect up<g ref="char:EOLhyphen"/>on your worthy Self. I deſire ever thankfully to remember, and acknowledge your Good<g ref="char:EOLhyphen"/>neſs and Kindneſs to me, from my firſt com<g ref="char:EOLhyphen"/>ing to live neer you; and I muſt ingeniouſly confeſs that it was no little encouragement to me in the ſtudy of Divinity, that you were pleaſed to be the firſt Patron that open<g ref="char:EOLhyphen"/>ed a Door for my initiating, and entrance in<g ref="char:EOLhyphen"/>to the Miniſtery. I need not make a Recapi<g ref="char:EOLhyphen"/>tulation of thoſe Chriſtian Vertues, which are conſpicuous in your ſober, and Religious
+<pb facs="tcp:48823:3"/> Converſation: nor of thoſe gracious abilities wherewith God hath been pleaſed to endue you, being well known, to as many as know you. I hate both Flattery, and Ingratitude. As for this ſmall Piece, which I now make bold to Dedicate to you; having a diſpoſi<g ref="char:EOLhyphen"/>tion for the ſatisfaction of ſome Learned and worthy Friends, to copy a draught of it, I thought I might with one Labour do a pub<g ref="char:EOLhyphen"/>lick, good, and give them their private con<g ref="char:EOLhyphen"/>tentment: and inſinuate my thankfulneſs to your ſelf. Be pleaſed to afford this ſmall Pre<g ref="char:EOLhyphen"/>ſent your favourable Aſpect and Patronage: the Subject is Grave and Ponderous, and of great concernment to all true Chriſtians, who deſire <hi>Eternal Happineſs,</hi> as for my manner of handling it, I leave to the Cenſure of Gods Church and People. Thus praying for your Temporal and Eternal welfare: I commit you, and yours to the grace of God in Chriſt Jeſus, and reſt</p>
+            <closer>
+               <signed>Your Honours to love and ſerve you in the Lord. Chriſtopher Bradley.</signed>
+            </closer>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:48823:3"/>
+            <head>To the Right Worſhipful Doctor <hi>John Neile,</hi> Arch-Deacon of <hi>Cleaveland;</hi> and the Worſhipful <hi>Chriſtopher Hildiard</hi> Eſquire. Grace and Peace.</head>
+            <opener>
+               <salute>
+                  <hi>Mu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>h endeared S<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>s.</hi>
+               </salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">A</seg>S this Sermon was preached at the deſire, and in the Courſe of the firſt of you: and is now penned and preſented to your reading, and peruſal, at the deſire of the ſe<g ref="char:EOLhyphen"/>cond of you, who was an Auditor, amongſt divers other perſons of Learning, and Qua<g ref="char:EOLhyphen"/>lity: that I may ſatisfie ſome judicious friends, and gratifie your ſelves: I now pre<g ref="char:EOLhyphen"/>ſent it unto your kind Acceptance, and Ap<g ref="char:EOLhyphen"/>probation. The Subject is Eternity, which is the end we ſhould all look at, it is <hi>panis quotidianus,</hi> a Doctrine for every day, in ſeaſon all the Year long, never out of ſeaſon:
+<pb facs="tcp:48823:4"/> be pleaſed to accept this poor Service of mine, as a token of that thank-fulneſs I owe unto you, for your continued Favour towards me: if my poor Endeavours may be uſeful to the Church and People of God, I have my end. <hi>Deo Gloria, mihi venia.</hi> I hope you will pardon my Defects in the manner of handling ſo weighty a Subject, and that you will remember what you read <hi>1 Kings 5.15.</hi> that at the building of <hi>Solomons</hi> Temple, there was room as well for Burden-bearers, as for other more curious Artificers: and <hi>Exod. 25.4, 5.</hi> at the firſt making of the Tabernacle, not only the Bringers of <hi>Blew-ſilk,</hi> and <hi>Purple,</hi> and <hi>Scarl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t:</hi> but even the pooreſt ſort, which brought <hi>Goats-Hair,</hi> and <hi>Rams-Skins,</hi> were accepted. Thus pray<g ref="char:EOLhyphen"/>ing that we all may ſo paſs through things Temporal, that we finally loſe not the things Eternal. I commit you to Gods gratious pro<g ref="char:EOLhyphen"/>tection, and reſt,</p>
+            <closer>
+               <signed>Your Worſhips to be commanded in the Lord Chriſtopher Bradley.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:48823:4"/>
+            <head>A Sermon Preached in <hi>York-Minſter,</hi> the ſecond day of <hi>July,</hi> 1665.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>2 Cor. 4.17.18.</hi>
+                  </bibl>
+                  <p>For our light affliction, which is but for a mo<g ref="char:EOLhyphen"/>ment, worketh for us a far more exceeding and eternal weight of Glory.</p>
+                  <p>While we look not at the things which are ſeen, but at the things which are not ſeen: for the things which are ſeen, are temporal, but the things which are not ſeen, are eternal.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">O</seg>F theſe two Verſes which I have read unto you, the firſt is the Context, the ſecond is the Text. I ſhall climb no higher for the co<g ref="char:EOLhyphen"/>herence and connexion of the Text, then the Context; wherein is laid down an antidote, or ſovereign Remedy of the Church and Peo<g ref="char:EOLhyphen"/>ple of God, againſt the afflictions of this pre<g ref="char:EOLhyphen"/>ſent Life. And therefore to clear a paſſage to the Text, I ſhall a little open the Context; though the words in both verſes ſeem to be plain and eaſie; yet if we look into the Ori<g ref="char:EOLhyphen"/>ginal, we ſhall find ſomething that is not ob<g ref="char:EOLhyphen"/>vious to every eye. I ſhall therefore briefly
+<pb n="2" facs="tcp:48823:5"/> deſcant upon the plain-ſong, by way of a Pa<g ref="char:EOLhyphen"/>raphraſtical expoſition, and that according to the Origin<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>l:<note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>o <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> n<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>r <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</note> Waters are ſweeteſt and ſafeſt that are drunk from the fountain. In the Context we may obſerve two Parts. 1. A Bitter Pill, <hi>Affliction.</hi> 2. A ſweet Cordial of Comfort, and that is <hi>Glory.</hi> 2. We may ob<g ref="char:EOLhyphen"/>ſerve the Qualifications of this Pill, by which it is alleviated, and mitigated. 1. It is <hi>light affliction</hi> 2. It is <hi>but for a moment.</hi> 3. We may obſerve the operation of this Pill: <hi>Affliction works Glory; light Affliction, a weight of Glory; light Affliction for a moment, an eternal weight of Glory.</hi> Unto which the Apoſtle makes an Hyperbolical addition, <hi>a far wore exceeding, and eternal weight of Glory.</hi>
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>Affliction,</hi> the Greek word is a Metaphor taken from crowd<g ref="char:EOLhyphen"/>ding, or preſſing in a multitude or throu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>g of People: and it is any trouble or preſſure that befalls the Soul, Body, or Eſtate, which God is pleaſed to inflict upon his Church, or any Member of it: and that for three cauſes e<g ref="char:EOLhyphen"/>ſpecially,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> the 1. is for Correction of ſin paſt; The 2.<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> is for Prevention of ſin to come; The 3.<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> is for the Probation, or Tryal of our Faith, and other Graces: that as Stars ſhine bright<g ref="char:EOLhyphen"/>eſt in the darkeſt night, ſo the Graces of Gods
+<pb n="3" facs="tcp:48823:5"/> People ſhine brighteſt in the darkeſt night of Affliction. 2. Light Affliction,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> in the Origi<g ref="char:EOLhyphen"/>nal it is lightneſs of Affliction, that is very light; but this is to be underſtood Compa<g ref="char:EOLhyphen"/>ratively, for Affliction in it ſelf is often heavy, and no chaſtening for the preſent ſeemeth to be joyous, but grievous:<note place="margin">Heb. 12.<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </note> yet in theſe re<g ref="char:EOLhyphen"/>ſpects it is light affliction.</p>
+            <p n="1">1. In regard of the demerit of ſin, which deſerves the heavy wrath of God to all eter<g ref="char:EOLhyphen"/>nity. 2. In regard of the ſhortneſs of it, it is but for a moment. 3. In regard of the opera<g ref="char:EOLhyphen"/>tion of it, it worketh an eternal weight of Glory; the conſideration of which made the Apoſtle ſay,<note place="margin">Rom. 8.18.</note> 
+               <hi>I reckon that the ſufferings of this preſent time, are not worthy to be compared with the Glory which ſhall be revealed in us.</hi>
+            </p>
+            <p n="4">4. In regard of that Patience and Support,<note place="margin">Levius fit pa<g ref="char:EOLhyphen"/>tientia quic<g ref="char:EOLhyphen"/>quid c<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>g<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>re eſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> n<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s.</note> which God is pleaſed to give his People un<g ref="char:EOLhyphen"/>der their afflictions, and in his good time a happy iſſue and deliverance out of them.</p>
+            <p>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. This affliction is but for a moment,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> a ve<g ref="char:EOLhyphen"/>ry little time and preſently paſt, as the Greek word imports: ſo that though our affliction be long in it ſelf, yet it is but for a moment, compared to eternal ſufferings, ſeeing there is no proportion between the longeſt time, and eternity.</p>
+            <pb n="4" facs="tcp:48823:6"/>
+            <p>The third thing to be opened, is, the Ope<g ref="char:EOLhyphen"/>ration of it, though Affliction be bitter, yet here is the comfort of it,<note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>is da<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> me<g ref="char:EOLhyphen"/>dus anabi<g ref="char:EOLhyphen"/>l<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tatem.</note> it worketh Glory. The end gives amability and ſweetneſs unto the means; we take a bitter Potion willing<g ref="char:EOLhyphen"/>ly for healths ſake, it worketh Glory. Glory is the excellency or eminency of any thing reſulting and ariſing from its Perfection. Glo<g ref="char:EOLhyphen"/>ry in the Greek ſignifies that high opinion or eſtimation of anothers Worth or Excellency;<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> For example, Glory in God is the Excellency of his Divine nature, and Attributes above the Creatures: Glory in the Creatures is the Excellency God puts upon them, ſo that to glorifie God, is not to make him more glori<g ref="char:EOLhyphen"/>ous than he is, for God is infinite in all Per<g ref="char:EOLhyphen"/>fection, not capable of addition or diminu<g ref="char:EOLhyphen"/>tion. To glorifie God is to give him the praiſe of his Glory, according to that of the Pſal<g ref="char:EOLhyphen"/>miſt,<note place="margin">Pſ. 50. ult.</note> 
+               <hi>Who ſo offereth Praiſe glorifieth me:</hi> ſo that to glorifie God is to divulge, and publiſh abroad to others what eminent Attributes, and what tranſcendent excellencies there are in God:<note place="margin">Glorioſum dicere</note> to glorifie God, is to declare him to be Glorious; to glorifie the Creature is to make him glorious.<note place="margin">Glorioſum <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>cere.</note> But why is it called a <hi>weight of Glory?</hi> The Apoſtle (as Interpreters
+<pb n="5" facs="tcp:48823:6"/> agree) alludes to the Hebrew word, which ſignifies both weight, and glory. Glory is a grave and weighty thing, whom we honour, are of great weight with us, and highly e<g ref="char:EOLhyphen"/>ſteemed in our minds: and Glory, as it were, loads the beholder with admiration; and this is alſo amplified, by being <hi>an eternal weight of Glory.</hi> As for the Apoſtles addition, <hi>a far more exceeding weight of Glory.</hi> I ſhall not trouble you with the various expoſitions of Interpreters, they are very Rhetorical, and ſublime:<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> the Apoſtle heaps one Hyperbole upon another, ſo that neither <hi>Cicero</hi> nor <hi>De<g ref="char:EOLhyphen"/>mosthenes</hi> had ever ſo elegant a ſtrain of Rhe<g ref="char:EOLhyphen"/>torick. And therefore I ſhall <hi>acquieſce</hi> in the judgment of a learned Doctor of our Church, who tells us, that no words deviſed by the beſt wit, and uttered by the moſt eloquent tongue of man, are able to expreſs that ſur<g ref="char:EOLhyphen"/>paſſing weight of Glory: and well may it be ſo, when both the Prophet,<note place="margin">Eſa. 61.4. 1 Cor. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.9</note> and Apoſtle tell us, that <hi>Eye hath not ſeen, nor ear heard, neither have entred into the heart of man, the things which God hath prepared for them that love him.</hi> But for whom will Affliction thus work? even for ſuch, as by the eye of Faith look at eterni<g ref="char:EOLhyphen"/>ty; for ſuch as conſider the redundancy of retri<g ref="char:EOLhyphen"/>bution
+<pb n="6" facs="tcp:48823:7"/> and compare preſent things with fu<g ref="char:EOLhyphen"/>ture things, as <hi>Oecumenius</hi> well obſerves. And ſo you ſee the connexion of the Text, with the Context, <hi>while we look not, &amp;c.</hi> Now for the opening, and applying of the words. becauſe method is the Mother of memory. I ſhall propound this method unto your Chri<g ref="char:EOLhyphen"/>ſtian conſideration: 1. Explication. 2. Ob<g ref="char:EOLhyphen"/>ſervation. 3. Application. 1. I ſhall give you a brief Expoſition of the words, and that ac<g ref="char:EOLhyphen"/>cording to the Original. The parts of the Text are two. 1. An intimation of a Duty. 2. The Reaſons to enforce that Duty. 1. Of the Duty, <hi>While we look not, &amp;c</hi> In the Greek it is,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>we not looking,</hi> the participle ſig<g ref="char:EOLhyphen"/>nifying the continuation of the Action: that is, we look not with a tranſient eye, a glance and away, but with a conſtant ſteddy eye, that is, we muſt make it our main buſineſs to look at Eternity; the Greek word contains in it an elegant Metaphor, taken from one that ſhoots at a Mark: to teach us, that things of a ſpiritual, and eternal nature muſt be the mark and ſcope at which we do collime and aim. 2. Obſerve the eye with which we look, elſe that will ſeem a Paradox, which indeed i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> a Divine Truth: how can we look at the
+<pb n="7" facs="tcp:48823:7"/> things which are not ſeen? this is to be un<g ref="char:EOLhyphen"/>derſtood, not of a natural or carnal eye, but of the ſpiritual eye of Faith; elſe there will be a diſproportion between the faculty, and the object. And that this Expoſition is true, the Apoſtle teſtifies in that Definition, or ra<g ref="char:EOLhyphen"/>ther Deſcription of Faith: (<hi>Heb.</hi> 11.1.) <hi>Now Faith is the ſubſtance of things hoped for, the evidence of things not ſeen:</hi> and in the 27. verſe of that Chapter, <hi>Moſes is ſaid by Faith to have ſeen him, who is inviſible.</hi> Now to illuſtrate this a little, the natural eye is like the ſight of the Owl, ſhe cannot look upon the Sun,<note place="margin">Excellen<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſ<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> ſibil<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſtruis ſ<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ſum. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>1 Cor. 2.14.</hi>
+               </note> the weakneſs is in the faculty of ſight: ſo the natural man, or as it is in the Greek, the Animal man (for he is a meer Animal in ſpi<g ref="char:EOLhyphen"/>ritual things) <hi>receiveth not the things of the ſpirit of God, for they are fooliſhneſs unto him, neither can he know them, becauſe they are ſpiritually diſcerned.</hi> But the ſpiritual eye is like the ſight of an Eagle,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> ſhe is ſaid to be ſun-proof, looking intently upon the Sun without being dazled; and by that proper<g ref="char:EOLhyphen"/>ty makes proof of her young ones: ſo Belie<g ref="char:EOLhyphen"/>vers by the eye of Faith can look upon the <hi>Sun of Righteouſneſs, Jeſus Chriſt,</hi>
+               <note place="margin">Mal. 4.2.</note> and at ſpiri<g ref="char:EOLhyphen"/>tual and eternal things. And ſo I come to
+<pb n="8" facs="tcp:48823:8"/> the ſecond part of the Text, the Reaſons to enforce the Duty, and they are two. 1. <hi>The things that are ſeen,</hi>
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>are temporall,</hi> the Greek word ſignifies for a ſeaſon, a very little time. The ſecond Reaſon is, <hi>but the things which are not ſeen,</hi>
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>are eternal,</hi> the Greek word ſig<g ref="char:EOLhyphen"/>nifies that which is alwaies in exiſtence, in being: and the Hebrew word <hi>gned,</hi> being ad<g ref="char:EOLhyphen"/>ded to eternity, or ever, encreaſes the dura<g ref="char:EOLhyphen"/>tion of it, that is, ever being added to ever, for ever and ever, notes unto us all Eternities. Now Eternity is either <hi>à parte antè,</hi> or <hi>à parte pòſt:</hi> God is eternal both ways, <hi>Pſal.</hi> 90.2. <hi>From everlaſting to everlaſting thou art God.</hi> God had no beginning, and ſhall have no end, he is, and was, and is to come: and ſo much the Hebrew word <hi>Jehovah</hi> doth import, which comes from a root which ſignifies <hi>He was:</hi> Angels and the Souls of Men are eter<g ref="char:EOLhyphen"/>nal the laſt way, <hi>à parte pòſt:</hi> they had a be<g ref="char:EOLhyphen"/>ginning but ſhall have no end, they muſt live ever, either in joy, or miſery. And ſo I come to the ſecond thing in the method propound<g ref="char:EOLhyphen"/>ed,<note place="margin">Obſerv.</note> and that is the <hi>Obſervation,</hi> which is this, <hi>That it is the Duty of all true Chriſtians in all their doings and their ſufferings, to look through and beyond thoſe things which are Temporal,
+<pb n="9" facs="tcp:48823:8"/> unto thoſe thinge which are ſpiritual and Eter<g ref="char:EOLhyphen"/>nal.</hi>
+            </p>
+            <p>For the confirmation of this Propoſition, take two or three inſtances. 1. Of Chriſt, <hi>Looking unto Jeſus,</hi>
+               <note place="margin">Heb. <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> 
+               <hi>the Author and finiſher of our Faith: who for the joy that was ſet before him, endured the Croſs, deſpiſing the ſhame, and is ſet down at the right hand of the Throne of God,</hi> 2. <hi>Moſes,</hi>
+               <note place="margin">Heb 1<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>4, 25, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>6.</note> 
+               <hi>By Faith</hi> Moſes <hi>when he was come to years, refuſed to be called the Son of</hi> Pharaohs <hi>Daughter. Chuſing rather to ſuffer af<g ref="char:EOLhyphen"/>fliction with the people of God, than to enjoy the pleaſures of ſin for a ſeaſon: eſteeming the reproach of Chriſt greater riches than the Trea<g ref="char:EOLhyphen"/>ſures of</hi> Aegypt: <hi>for he had reſpect unto the recompence of reward.</hi>
+            </p>
+            <p>The third inſtance is in <hi>Mary,</hi>
+               <note place="margin">Luk 10 41 42</note> who ſat at Jeſus feet, and heard his word: when <hi>Mar<g ref="char:EOLhyphen"/>tha</hi> was cumbred about much ſerving, ſhe made a worthy choice, ſhe had choſen that <hi>one thing neceſſary,</hi> the ſpiritual and eternal welfare of her Soul.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reaſons. </seg>
+               </label> As for the Reaſons, I ſhall confine my ſelf within the limits of my Text: and as the Doctrine takes up the 1. part, ſo the Reaſons will take up the 2. part of it.</p>
+            <p>The 1. Reaſon, why we ſhould look at
+<pb n="10" facs="tcp:48823:9"/> Eternity, is, becauſe the things <hi>which are ſeen are temporal:</hi> that is, they abide but for a ſeaſon, they are tranſient, and fluent, not durable, nor permanent; and therefore <hi>So<g ref="char:EOLhyphen"/>lomon</hi> who knew well the vanity and inſtabi<g ref="char:EOLhyphen"/>lity of all worldly things, asks this queſtion, <hi>wilt thou ſet thine eyes upon that which is not?</hi>
+               <note place="margin">Prov. <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.5.</note> What is his meaning? not that earthly things, as riches, <hi>&amp;c.</hi> are <hi>non entia,</hi> and have no being: but that they are not the things which they ſeem to be, they are not ſo laſt<g ref="char:EOLhyphen"/>ing, nor ſo ſatisfactory as men expect; and therefore <hi>Solomon</hi> ſubjoyns in the ſame verſe, <hi>for riches certainly make themſelves wings, they fly away as an Eagle toward Heaven.</hi> Here the flight of Riches is compared to the ſudden flight of an Eagle; as one property of the Eagle, is, that ſhe is quick-ſighted (as you have heard) ſo another property is, that ſhe is quick flighted: ſo are all earthly things, fa<g ref="char:EOLhyphen"/>ding and quickly vaniſhing. Meteors in the Ayr,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> are called Apparitions, becauſe they preſently appear,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> and as preſently diſ-appear; ſo are all things that are ſeen, they are but Meteors, Vapours, Apparitions; and well may it be ſo,<note place="margin">J<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. 4.14.</note> when St. <hi>James</hi> asketh this que<g ref="char:EOLhyphen"/>ſtion, <hi>What is your life? it is even a vapour that
+<pb n="11" facs="tcp:48823:9"/> appeareth for a little time, and then vaniſheth a<g ref="char:EOLhyphen"/>way.</hi> So that all our Creature-comforts may quickly either be taken from us, or we from them, our life it ſelf-being ſo uncertain. Hence it is that St. <hi>Paul</hi> gives that Epithet unto Riches, <hi>Truſt not in uncertain Riches,</hi>
+               <note place="margin">1 <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </note> 
+               <hi>but in the living God:</hi> Riches are uncertain, 1. In the getting, 2. In the Keeping, 3. In the leav<g ref="char:EOLhyphen"/>ing: in the Original, it is uncertainty,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> in the abſtract, that is, nothing is more uncertain, being uncertainty it ſelf: and yet there is ſomething more in the word to be obſerved,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> in the Compoſition of it, it ſignifies it is not manifeſt, or evident: that is, no demonſtra<g ref="char:EOLhyphen"/>tion, or determination can be made from out<g ref="char:EOLhyphen"/>ward things, whether a man be in the favour of God, or no; whether a man be in the ſtate of Grace, and Salvation, or no; God being pleaſed to uſe a promiſcuous diſpen<g ref="char:EOLhyphen"/>ſation of outwards things, ſo that all things fall alike, in that reſpect, to all men, as <hi>Solo<g ref="char:EOLhyphen"/>mon</hi> well obſerves. Hence alſo it is that St. <hi>Paul</hi> urges the <hi>Corinthians</hi> to moderation in all outward things, and that by two cogent, and convincing Arguments: that, <hi>they that have Wives, be as though they had none:</hi>
+               <note place="margin">1 <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 3<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, 3<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> 
+               <hi>and they that weep, as though they wept not: and they that rejoyce, as though they rejoyced not: and
+<pb n="12" facs="tcp:48823:10"/> they that buy, as though they poſſeſſed not: and they that uſe this world, as not abuſing it:</hi> the firſt argument is antecedent, and it is this, the time is ſhort,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> in the Greek, the ſeaſon is contracted: that is, very ſhort. The ſecond Argument is conſequent, <hi>for the faſhion of this world paſſeth away:</hi>
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> in the Greek it is the Scheme of this world; it is but a Scheme, a Figure, a Pageant, a Shew, a Faſhion, and that quickly paſſeth away.<note place="margin">Rev. 12.1.</note> In the <hi>Revelation,</hi> we read of a <hi>Woman clothed with the Sun, and the Moon under her feet:</hi> this Woman is the Church of God, clothed with the rich Robes of Jeſus Chriſt, the Sun of Righteouſneſs, and the Moon, that is, all ſublunary and earthly things under her feet. God has gi<g ref="char:EOLhyphen"/>ven us the earth to ſet our feet upon, and not to ſet our hearts upon. But eternal things are durable,<note place="margin">Prov 8.18.</note> 
+               <hi>Riches and Honour are with me,</hi> ſaith Wiſdome, <hi>yea durable Riches and Righte<g ref="char:EOLhyphen"/>ouſneſs:</hi> &amp; that leads me to the ſecond Reaſon, <hi>But the things that are not ſeen are eternal.</hi> It is worth our obſervation, that eternity being ad<g ref="char:EOLhyphen"/>ded to any eſtate, or condition, makes it infi<g ref="char:EOLhyphen"/>nitely good, or infinitely bad: as for Example, to have the favour of God, the light of his countenance, his bliſsful preſence, the ſociety of
+<pb n="13" facs="tcp:48823:10"/> Saints and Angels, for a day, a year, <hi>&amp;c.</hi> were very good: but to enjoy this happineſs to all eternity, makes it infinitely good. So on the contrary to feel horrour of Conſcience, a ſe<g ref="char:EOLhyphen"/>paration from God, to burn in fire and brim<g ref="char:EOLhyphen"/>ſtone for a day, or a year, <hi>&amp;c.</hi> were very bad: then what is it to endure theſe to all eternity? this makes the miſery to be infinitely evil. Thus you ſee the Reaſons why Chriſtians ſhould look beyond this preſent life, unto thoſe things which are <hi>ſpiritual and eternal:</hi> And ſo I come to the third, and laſt thing in the method propounded, and that is Appli<g ref="char:EOLhyphen"/>cation.</p>
+            <p n="1">
+               <label type="milestone">
+                  <seg type="milestoneunit">Application. </seg>
+               </label> 
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1. Hence we learn, from this Doctrine of eternity, to be ſoundly perſwaded, and well grounded in theſe two Scripture-Truths, 1. The immortality of the Soul, and 2. the happineſs, or miſery of the life to come, which will laſt to all eternity. As for the firſt, though it hath been oft impugned both by ancient Hereticks, and modern Schiſmaticks: yet that the Soul of man is not only a ſpiritu<g ref="char:EOLhyphen"/>al Eſſence, which actuates the body in which it is, but an immortal Eſſence too, which ſhall overlive the body, we have good proof both from the Old, and New Teſtament: ſee
+<pb n="14" facs="tcp:48823:11"/> 
+               <hi>Eccl.</hi> 12.7. <hi>Luke</hi> 23.46. and not only the ancient Fathers, but the learned Gentiles by the light of Nature, and dull ſpectacles of Philoſophy, have aſſerted this Truth. If I were to ſpeak to Heathens, I might imitate St. <hi>Paul,</hi> who confuted the <hi>Athenians, Cretians,</hi> and others, out of their own Greek Poëts: but ſeeing (thanks be to God) I ſpeak to Chriſtians, I need not tell you, what opinion <hi>Plato, Pythagoras, Ariſtotle,</hi> and others held of the Souls immortallity: ſeeing it is a receiv<g ref="char:EOLhyphen"/>ed Axiom in Philoſophy,<note place="margin">Anima ratio<g ref="char:EOLhyphen"/>nalis eſt im<g ref="char:EOLhyphen"/>mortali<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> that the rational Soul is immortal.</p>
+            <p>And if the Soul be immortal, and ſhall be re-united to the body at the Reſurrection, then it muſt have an <hi>
+                  <g ref="char:V">Ʋ</g>bi,</hi> a place of eternal bliſs, or miſery. And not only the Scriptures, but the Greek and Latine Poëts, do make mention of Heaven, and Hell, their <hi>Elyſian fields,</hi> and <hi>Tartarean Dungeon,</hi> and the like. <milestone type="tcpmilestone" unit="unspecified" n="2"/> As for the glories of the life to come, and mi<g ref="char:EOLhyphen"/>ſeries of the ſecond death, Heathens, as well as Chriſtians have much written. Now if we would know, wherein the bleſſedneſs of the life to come doth conſiſt, both the Scriptures and the Fathers tell us, that it conſiſts in the Beatifical viſion of Almighty God.<note place="margin">Mat. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.8.</note> 
+               <hi>Bleſſed
+<pb n="15" facs="tcp:48823:11"/> are the pure in heart, for they ſhall ſee God. In thy Preſence is fulneſs of joy,</hi>
+               <note place="margin">Pſ. 16. ult.</note> 
+               <hi>and at thy right hand there are pleaſures for evermore,</hi> ſaith the Pſal<g ref="char:EOLhyphen"/>miſt. And St. <hi>Auſtin</hi> tells us,<note place="margin">Viſio Dei beati<g ref="char:EOLhyphen"/>fica ſola eſt ſummum bo<g ref="char:EOLhyphen"/>num noſtrum.</note> that only the bea<g ref="char:EOLhyphen"/>tifical viſion of God, is our chiefeſt good. As for the miſeries of the life to come, they conſiſt in a ſeparation from the Preſence of God: as St. <hi>Paul</hi> intimates 2 <hi>Theſ.</hi> 1.9.<note place="margin">Rev. 20.6.</note> this is called the <hi>ſecond Death,</hi> not properly, but Analogically: for as the death of the body, is the ſeparation of the Soul from the body: ſo the death of the Soul, is the ſeparation of the Soul from God.<note place="margin">Poena damni eſt p<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>talior, quam poeta ſenſus. Mortem ſine morte. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> And this Divines call the puniſhment of loſs, which they ſay, is greater than the puniſhment of ſenſe. Hence it is that ſome of the Fathers call this ſecond Death, a death without death, or a never-dying death; it is a liveleſs life: ſuch is the miſerable condi<g ref="char:EOLhyphen"/>tion of the ſecond Death.</p>
+            <p n="2">2. This Doctrine reproves and condemns thoſe that mind only earthly things: <hi>Phil.</hi> 3.19. <hi>Whoſe end is deſtruction, whoſe God is their belly, whoſe glory is in their ſhame, who mind earthly things.</hi> Senſual Atheiſts, Epicures,<note place="margin">Epicuri de gre<g ref="char:EOLhyphen"/>ge porci.</note> Libertines, called not only in Scripture, but in prophane Authors, ſwine, and dogs.<note place="margin">Heb. 12.16.</note> 
+               <hi>Pro<g ref="char:EOLhyphen"/>phane</hi> Eſau <hi>ſold his birthright for one morſel of
+<pb n="16" facs="tcp:48823:12"/> meat:</hi> and prophane men ſell Heaven for a little earth, the joys of eternal life, for the pleaſures of ſin which are but for a ſeaſon. Whence is it, that any ſhould hold the Soul to be mortal? but from a principle of Epicu<g ref="char:EOLhyphen"/>riſm: when (for ought that I could ever read) the immortality of the Soul, was never poſitively denied by any Sect of Philoſophers, except the Epicures; who placing the chief happineſs, or <hi>ſummum bonum,</hi> in corporal plea<g ref="char:EOLhyphen"/>ſures, were, as it were, engaged to cry down the Soul.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> The third leſſon we may learn from hence, is, to teach us the Reaſon why they that truly fear God, and mind the ſalvation of their ſouls, dare not run with others to the like ſenſuality, and exceſs of riot: and there<g ref="char:EOLhyphen"/>fore ſaith St. <hi>Peter,</hi>
+               <note place="margin">1 Pet. 4.4, 5.</note> 
+               <hi>they think it ſtrange: ſpeaking evil of you, who ſhall give account to him that is ready to judge the quick and the dead.</hi> They look at the reckoning-day, they look at eternity, they conſider how they may get through this troubleſome world with good Conſciences.<note place="margin">2 Pet. 1.5, 6, 7, 8, 9. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> 
+               <hi>They give all diligence to add to Faith, Vertue; to Vertue, Knowledge, &amp;c. but he that lacketh theſe thingr, is blind, and cannot ſee afar off:</hi> he cannot look at Eternity:
+<pb n="17" facs="tcp:48823:12"/> but the other labour to grow in Grace, that they may be prepared for the Kingdom of Glory.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> The fourth leſſon, which is the main in<g ref="char:EOLhyphen"/>ſtruction of this point, is to exhort us in all things to look at eternity. And this indeed is that, which we muſt all aim at, if we have a<g ref="char:EOLhyphen"/>ny of that zeal to the Kingdom of Heaven, which was ſo eminent in the Patriarchs, Pro<g ref="char:EOLhyphen"/>phets, Apoſtles, Martyrs, Confeſſors as to be left upon Record for our inſtruction. Now that we may look at our ſpiritual and eternal condition: 1. We muſt labour for a lively and ſaving Faith in Jeſus Chriſt; Faith is the eye of the Soul, to ſee, as the hand of the Soul, to receive: 2. Labour <hi>to live by faith,</hi>
+               <note place="margin">2 Cor. 5.<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> 
+               <hi>and not by ſenſe.</hi> Let us not ſo much conſider what ſhall become of us in this Life, as what ſhall become of us to all Eternity. And let us alwaies remember, that eternal life is be<g ref="char:EOLhyphen"/>gun in this life, called the life of Grace; Grace and Glory differ only in degrees. Grace is the imitation of Glory, and Glory the con<g ref="char:EOLhyphen"/>ſummation of Grace: none can live the life of Glory, but ſuch as live the life of Grace here: without Regeneration, there is no ſal<g ref="char:EOLhyphen"/>vation. Chriſt told <hi>Nichodemus,</hi>
+               <note place="margin">Jo. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.3.</note> 
+               <hi>Except a man
+<pb n="18" facs="tcp:48823:13"/> be borne againe, he cannot enter into the King<g ref="char:EOLhyphen"/>dome of Heaven.</hi> So that while this life laſt<g ref="char:EOLhyphen"/>eth, eternal life muſt be acquired, or loſt for ever-.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> Now give me leave a little, to ſpeak to all conditions of men that hear me:<note place="margin">Heb. 13.<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>1.</note> 
+               <hi>and I be<g ref="char:EOLhyphen"/>ſeech you Brethren, ſuffer the word of Exhorta<g ref="char:EOLhyphen"/>tion,</hi> by a particular Application. 1. You that are Magiſtrates, and Governors either in Church or State, let all your actings be for the glory of God, the honour of the King, the Good, Peace, Welfare, and Tranquility of the places where you live: fulfil the end of Magiſtracy, which is to ſuppreſs ſin, and vice, and to encourage vertue and piety: that people may lead under you,<note place="margin">1 Tim. 2.2.</note> 
+               <hi>a quiet, and a peaceable life in all godlineſs and honesty.</hi> And may more cheerfully and willingly,<note place="margin">1 Pe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.13, 14</note> 
+               <hi>Submit themſelves to every Ordinance of man for the Lords ſake, whether it be to the King as ſupreme, or unto Governours, as unto them that are ſent by him, for the puniſhment of evil doers, and for the praiſe of them that do well.</hi> That ſo you may give a good account at the laſt day, and may receive the Crown of life.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> We that are Miniſters of Gods Holy Word and Sacraments, let all our preaching be for
+<pb n="19" facs="tcp:48823:13"/> Eternity. Let the Glory of God and the ſalvation of Souls, be our chief aim, let conviction, converſion and edification be the end and ſcope of our teaching. <hi>Dan.</hi> 12.3. <hi>they that be wiſe, ſhall ſhine as the brightneſs of the firmament, and they that turn many unto righteouſneſs, as the ſtars for ever and ever:</hi> but who are they that are wiſe?<note place="margin">Intellig<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nte<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Err<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nt<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.</note> the Hebrew word, which is tranſlated wiſe, is alſo rendred teaching, or Teachers, as it is in the Margent of our Bibles. They that are wiſe, are ſuch as by their painful teaching, turn many unto righteouſneſs. Let us ſee another excellent place, <hi>Prov.</hi> 11.30. <hi>The fruit of the righteous is a tree of life, and he that winneth Souls is wiſe.</hi> The Tree of Life was a type of immortallity, and you ſee here again who is wiſe, he that winneth Souls; the Hebrew word ſignifies to take, or catch, and it is a Metaphor taken from Fowlers, or Fiſhers who uſe all art and induſtry to catch birds or fiſh. The Devil is very buſie to catch Souls from us, let us be very induſtrious to catch Souls from him: the wiles of the Devil,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> Epa. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> are in the Greek called Methods: let us uſe all our method to reco<g ref="char:EOLhyphen"/>ver Souls from him, and let us oft reade, and meditate upon that counſel which St. <hi>Paul</hi>
+               <pb n="20" facs="tcp:48823:14"/> gives to <hi>Tymothy,</hi> 2 <hi>Tim.</hi> 2.3 laſt verſes: <hi>thus doing, when the chief Shepheard ſhall appear, we alſo may receive a Crown of Glory.</hi> 
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> You that are Citizens of this ancient and famous City, labour to be free Denizens of Heaven. <hi>That ye be no more Strangers and Forreigners,</hi>
+               <note place="margin">Eph. 2 19.</note> 
+               <hi>but Fel<g ref="char:EOLhyphen"/>low Citizens with the Saints, and of the houſ<g ref="char:EOLhyphen"/>hold of God.</hi>
+            </p>
+            <p>
+               <note place="margin">Phil. 3.20.</note>
+               <hi>Let your Converſation be in Heaven,</hi> go about earthly buſineſs with Heavenly minds; the Greek word tranſlated Converſation,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> ſigni<g ref="char:EOLhyphen"/>fies Citizen-ſhip:<note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. 13.14.</note> therefore remember, <hi>that you have here no continuing City, but muſt ſeek one to come.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> You that are Merchants, and Tradeſ-men, trade for Heaven and Eternity. And remem<g ref="char:EOLhyphen"/>ber that <hi>the Kingdom of Heaven is like unto a Merchant man,</hi>
+               <note place="margin">Mat. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>3.45, 46.</note> 
+               <hi>ſeeking goodly Pearls, who when he had found one Pearl of great price, he went and ſold all that he had and bought it.</hi> This Pearl is Jeſus Chriſt with all his benefits, which you ſhould diligently ſeek: wiſe Merchants when they go beyond Sea, uſe to buy ſuch Commodities as are cheap there, but are ven<g ref="char:EOLhyphen"/>dible at home, at a good rate; even ſo while you are here, not at home, but Strangers and Forreigners, buy ſuch Commodities as will
+<pb n="21" facs="tcp:48823:14"/> give a good rate, when you come at home, in Heaven: the benefits of Chriſt, Grace, and the new-Creature are cheap here, in regard of the paucity and fewneſs of men that look after them: but they will be of great price in Heaven, which is our home, our own Coun<g ref="char:EOLhyphen"/>try. Let no worldly profit hinder your care for your Souls; <hi>What will it profit a man,</hi>
+               <note place="margin">Mat. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>6.26.</note> 
+               <hi>if he ſhall gain the whole world and loſe his own Soul;</hi> ſaith our Saviour. Be not ſo careful how to lay a foundation of greatneſs for Poſterity, as how to <hi>lay a good foundation against the time to come, that ye may lay hold on eternal Life.</hi>
+               <note place="margin">1 Tim 6.19.</note> It was a complaint of devout <hi>Salvian,</hi> that men,<note place="margin">
+                  <hi>Salvian.</hi> ad Eccl. Cathol. Lib. <hi>2.</hi>
+               </note> to leave others rich for a ſhort time, did often condemn themſelves to eternal poverty.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="5"/> Laſtly, You that are poor Labourers, take our Saviours counſel, <hi>Jo.</hi> 6.27. <hi>Labour not</hi> (ſo much) <hi>for the meat which periſheth, as for the meat which endureth to eternal Life.</hi> And remember for your comforts, that if you be true Believers in Chriſt, and look at Eterni<g ref="char:EOLhyphen"/>ty, that God hath choſen the poor of this world, rich in Faith, and Heirs of the King<g ref="char:EOLhyphen"/>dome which he hath promiſed to them that love him, <hi>James</hi> 2.5.</p>
+            <pb n="22" facs="tcp:48823:15"/>
+            <p>Now that I may give you ſome few Mo<g ref="char:EOLhyphen"/>tives and encouragements to this Duty:</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> The looking at Eternity will make us the leſs to love and prize the things of this world, and be well contented with our Con<g ref="char:EOLhyphen"/>dition.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> It will make us patiently to bear all Affli<g ref="char:EOLhyphen"/>ctions, and troubles: when we conſider, that <hi>ſtrait is the Gate,</hi>
+               <note place="margin">Mar. 7.14. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>and narrow is the Way</hi> (or as it is in the Greek, <hi>full of Affliction) which lead<g ref="char:EOLhyphen"/>eth unto Life, and few there be that find it: and that if we ſuffer with Chriſt,</hi>
+               <note place="margin">2 Tim. 2.12.</note> 
+               <hi>we ſhall reign with him.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> This will make us that we ſhall not envy the proſperity of wicked men, read <hi>Pſ.</hi> 37.1, 2.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> This will ſweetly bring on the Meditation of Death: why is Death ſo fearful to the wicked?<note place="margin">Heb. 9.27.</note> but becauſe, <hi>it is appointed for all men once to dye: and after that comes Judgment;</hi> and after that Eternity: Why is death ſo comfortable to the godly? But becauſe their temporal death, is a paſſage to Eternal Life; when they can ſay believingly, <hi>we know that if our earthly Houſe of this Tabernacle were diſſolved:</hi>
+               <note place="margin">2 Cor. 5.<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> 
+               <hi>we have a building of God, an Houſe not made with Hand, eternal in the Heavens.</hi> 
+               <milestone type="tcpmilestone" unit="unspecified" n="5"/> The next leſſon we learn from this Doctrine,
+<pb n="23" facs="tcp:48823:15"/> is for Caution, to take heed of all ſin, even the leaſt ſin is of an eternal guilt, being com<g ref="char:EOLhyphen"/>mitted againſt an eternal God, and muſt have an eternal expiation by the Blood of Chriſt, or elſe an eternal puniſhment.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="6"/> Laſtly, (that I may haſten, to conclude with the time) this may teach us an uſe of Gratulation, to be thankful unto God, that hath given us immortal Souls, and a true Faith in Jeſus Chriſt, that he hath given any of us Grace carefully to look after our eter<g ref="char:EOLhyphen"/>nal eſtate and condition: and that he hath prepared eternal happineſs for us. And that we may be better ſtirred up to thankfulneſs; I ſhall allude to that of <hi>David,</hi> 2 <hi>Sam.</hi> 7.18, 19, 20. Read the place, I pray you, we may apply it thus: <hi>Lord who am I, that thou haſt brought me hitherto, that thou haſt preſerved me to this day: but thou haſt ſpoken of thy Servants Houſe for a great while yet to come:</hi> thou haſt appointed me to happineſs to all Eternity. <hi>And what can</hi> David <hi>ſay more?</hi> this ſurpaſſeth the ſpeech of all created Eloquence. This ſhould mightily affect us, we ſhould be ſo ra<g ref="char:EOLhyphen"/>viſhed with the Contemplation of the gloryes of the life to come, that we ſhould not only praiſe God with our lips (ſee. <hi>Pſ.</hi> 103.1, 2.)
+<pb n="24" facs="tcp:48823:16"/> but alſo with our lives: that ſo glorifying him a few days upon Earth, we may be glori<g ref="char:EOLhyphen"/>fied with him, and by him, to all eternity in Heaven. Now let us turn our praiſe into prayer, that through the Grace and Guidance of Gods Holy Spirit, we may ſo paſs through things temporal, that we finally loſe not the things eternal: through Jeſus Chriſt our Lord. <hi>Amen.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:48823:16"/>
+         </div>
+      </body>
+   </text>
+</TEI>
